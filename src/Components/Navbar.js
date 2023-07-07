@@ -1,8 +1,7 @@
 import React from 'react'
 
 function Navbar({data}) {
-  return (
-    <div>
+  return <>    <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container px-4 px-lg-5">
                 <a className="navbar-brand" href="#!">Start Bootstrap</a>
@@ -32,7 +31,8 @@ function Navbar({data}) {
             </div>
         </nav>
     </div>
-  )
+    </>
+
 }
 
 export default Navbar

@@ -107,7 +107,7 @@ function Card({setCartValue,data}){
                 <span className="text-muted text-decoration-line-through"></span>
                   {data.price}
                   <div>{data.star}{data.star}{data.star}{data.star}{data.star}</div>
-                {/* setCartValue(cartalue+1) */}
+              
             </div>
         </div>
         <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">

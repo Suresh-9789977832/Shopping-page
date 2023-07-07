@@ -1,8 +1,7 @@
 import React from 'react'
 
 function Header() {
-  return (
-    <div>
+  return <>    <div>
               <header className="bg-dark py-5">
             <div className="container px-4 px-lg-5 my-5">
                 <div className="text-center text-white">
@@ -12,7 +11,8 @@ function Header() {
             </div>
         </header>
     </div>
-  )
+    </>
+
 }
 
 export default Header
