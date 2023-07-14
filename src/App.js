@@ -44,7 +44,7 @@ function App() {
       
     },
     {
-      plan:'Special Item',
+      plan:'Special Items',
       price:"$18.00",
       star:<i class="fa-solid fa-star"style={{color:"#eedc11"}}></i>
 
